@@ -16,7 +16,7 @@ public class JavaPuzzle2 {
         Integer x = 5;
         System.out.println("x = " + x);  // x == 7
 
-        System.out.println("x = " + 5);  // x == 5,, javap看了一下，直接编译器优化成一个字符串了
+        System.out.println("x = " + 5);  // x == 5,, javap看了一下，直接编译器优化成一个字符串了"x = 5"
 
         hackInteger(5,5);
 
